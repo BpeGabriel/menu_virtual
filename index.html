@@ -25,7 +25,7 @@
     <header class="header">
         <div class="container">
             <nav class="navbar navbar-expand-lg pl-0 pr-0">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand wow fadeIn" href="#">
                     <img src="./img/logo.png" width="160" class="img-logo">
                 </a>
                 <button class="navbar-toggler"
@@ -36,7 +36,7 @@
                  </span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ml-auto mr-auto">
+                    <ul class="navbar-nav ml-auto mr-auto wow fadeIn">
                         <li class="nav-item">
                             <a href="#reservas" class="nav-link"><b>Reservas</b></a>
                         </li>
@@ -47,7 +47,7 @@
                         <li class="nav-item">
                             <a href="#depoimentos" class="nav-link"><b>Depoimentos</b></a></li>
                     </ul>
-                    <a class="btn btn-white btn-icon" onclick="cardapio.metodos.abrirCarrinho(true)">
+                    <a class="btn btn-white btn-icon wow fadeIn" onclick="cardapio.metodos.abrirCarrinho(true)">
                         Meu carrinho <span class="icon">
                             <div class="container-total-carrinho badge-total-carrinho hidden">0</div>
                             <i class="fa fa-shopping-bag"></i>
@@ -63,12 +63,12 @@
         <div class="row">
             <div class="col-6">
                 <div class="d-flex text-banner">
-                    <h1><b>Escolha sua comida <b class="color-primary">favorita.</b></b></h1>
-                    <p>
+                    <h1 class="wow fadeInLeft"><b>Escolha sua comida <b class="color-primary">favorita.</b></b></h1>
+                    <p class="wow fadeInLeft delay-02s">
                         Aproveite nosso cardápio! Escolha o que desejar e receba 
                         em sua casa de forma rápida e segura.
                     </p>
-                    <div>
+                    <div class="wow fadeIn delay-05s">
                         <a class="btn btn-yellow mt-4 mr-3">
                             Ver cardápio
                         </a>
@@ -80,23 +80,23 @@
                         </a>
                     </div>
                 </div>
-                <a class="btn btn-sm btn-white btn-social mt-4 mr-3">
+                <a class="btn btn-sm btn-white btn-social mt-4 mr-3 wow fadeIn delay-06s">
                     <i class="fab fa-instagram"></i>
                 </a>
-                <a class="btn btn-sm btn-white btn-social mt-4 mr-3">
+                <a class="btn btn-sm btn-white btn-social mt-4 mr-3 wow fadeIn delay-06s">
                     <i class="fab fa-facebook"></i>
                 </a>
-                <a class="btn btn-sm btn-white btn-social mt-4">
+                <a class="btn btn-sm btn-white btn-social mt-4 wow fadeIn delay-06s">
                     <i class="fab fa-whatsapp"></i>
                 </a>
             </div>
             
             <div class="col-6">
-                <div class="card-banner">
-                    <div class="d-flex img-banner">
+                <div class="card-banner wow fadeIn delay-02s">
+                    <div class="d-flex img-banner wow fadeIn delay-05s">
                      <img src="./img/burguer.png" alt="imagem de um hamburguer">   
                     </div>
-                    <div class="card card-case">
+                    <div class="card card-case wow fadeInRight delay-06s">
                         "Entrega rápida e funcionários simpaticos.
                         <br>A comida chegou quente e <br>
                         muito saborosa!"
@@ -569,7 +569,7 @@
 <script type="text/javascript" src="./js/dados.js"></script>
 <script type="text/javascript" src="./js/app.js"></script>
 
-<script>new WOW().init()</script>
+<script>new WOW().init();</script>
 
 </body>
 </html>
